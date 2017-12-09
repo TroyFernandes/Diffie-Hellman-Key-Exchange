@@ -16,7 +16,7 @@
 
 //Define the number of puzzles you want to generate. 
 //In this case 2^16 = 65536
-#define MAX_KEYS 65536
+#define MAX_KEYS 1024
 
 
 //Needed for OpenSSL Development in Visual Studio 2015
