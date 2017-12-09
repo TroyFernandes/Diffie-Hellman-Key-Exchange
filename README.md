@@ -8,6 +8,8 @@ large amounts of data/work has to be done by both parties.
 
 My code is commented well to help anyone who is having trouble understanding this algorithm. So go ahead and take a look.
 
+![](https://github.com/TroyFernandes/Diffie-Hellman-Key-Exchange/blob/master/Demo/demo.gif)
+
 # Merkle's Puzzle
 
 Merkle's Puzzle is a concept used in this algorithm. It works as follows ...
@@ -16,7 +18,7 @@ Pi ∈{0,1}<sup>2</sup>
 
 Xi, Ki ∈{0,1}<sup>128</sup>
 
-Puzzle = E( 0<sup>14</sup>||Pi , "Puzzle Xi || Ki" )
+Puzzle = E( 0<sup>14</sup> || Pi , "Puzzle Xi || Ki" )
 
 1) Alice sends 2<sup>16</sup> puzzles to Bob
 2) Bob chooses one random puzzle and tries all possible keys knowing
