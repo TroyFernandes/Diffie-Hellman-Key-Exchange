@@ -33,7 +33,7 @@ Puzzle = E( 0<sup>14</sup> || Pi , "Puzzle Xi || Ki" )
 
 # Program Rundown
 
-The program starts by generating 2^16 different puzzles. It generates a secret key where the first 14 bytes are zero, and the last two are random hex values. It also generates an Xi and Ki value. It then gets saved in a struct which only Alice has. (You can change the MAX_KEYS definition to reduce this number if you like)
+The program starts by generating 2<sup>16</sup> different puzzles. It generates a secret key where the first 14 bytes are zero, and the last two are random hex values. It also generates an Xi and Ki value. It then gets saved in a struct which only Alice has. (You can change the MAX_KEYS definition to reduce this number if you like)
 
 Puzzle generation will depend on your computer. On mine, which is an i5-4690k @4.4GHz and 16Gb of RAM it takes around 2m30s to generate 65536 puzzles.
 
